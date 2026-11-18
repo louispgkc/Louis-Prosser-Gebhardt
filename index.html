@@ -159,6 +159,25 @@
           </ul>
           <a class="card-link" href="assets/work/import-logistics-process-redesign.pdf" target="_blank" rel="noopener">View presentation &rarr;</a>
         </article>
+        <article class="card">
+          <span class="card-tag">SCM 500 &middot; SQL Project</span>
+          <h3>Freight Network Data Pipeline in SQL</h3>
+          <p>
+            Cleaned and structured a tire manufacturer's history of 56,134 shipments ($61M in freight spend)
+            for transportation network analysis in SQL Server. I wrote re-runnable scripts that add origin and
+            destination details, cost zones, and lane type to every shipment. They fill in distances from three
+            sources ranked by accuracy: Mexico lanes, then ZIP5, then ZIP3. Six documented exclusion rules removed
+            ocean freight, bad weights, and unmatched records, leaving 53,632 valid shipments that roll up into
+            3,480 lanes by origin, destination, and mode.
+          </p>
+          <ul class="skills">
+            <li>SQL Server</li><li>T-SQL</li><li>Data Cleaning</li><li>Transportation Analytics</li>
+          </ul>
+          <div class="card-links">
+            <a class="card-link" href="https://github.com/louispgkc/Louis-Prosser-Gebhardt/blob/main/code/01_create_wip_shipment_history.sql" target="_blank" rel="noopener">View SQL: shipment cleanup &rarr;</a>
+            <a class="card-link" href="https://github.com/louispgkc/Louis-Prosser-Gebhardt/blob/main/code/02_create_val_lanes.sql" target="_blank" rel="noopener">View SQL: lane build &rarr;</a>
+          </div>
+        </article>
       </div>
     </section>
 
